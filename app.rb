@@ -1,7 +1,7 @@
 class Application < Sinatra::Base
   # Write your code here!
-  get '/index' do
-    erb :index
+  get '/' do
+    erb :greet
   end
 
   get '/greet' do
