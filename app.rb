@@ -10,7 +10,7 @@ class Application < Sinatra::Base
 
 
   get '/greet' do
-     erb :greet
+    # erb :greet
      name = params[:name]
 	   say = params[:say] 
   end
