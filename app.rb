@@ -4,11 +4,6 @@ class Application < Sinatra::Base
     erb :index
   end
 
-  get '/index' do
-    erb :index
-  end
-
-
   get '/greet' do
      erb :greet
   end
