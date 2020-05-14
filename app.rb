@@ -10,7 +10,7 @@ class Application < Sinatra::Base
 
 
   get '/greet' do
-     erb :
+     erb :app
   end
   end
 end
