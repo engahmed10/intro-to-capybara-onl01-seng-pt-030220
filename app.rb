@@ -11,7 +11,7 @@ class Application < Sinatra::Base
 
   get '/greet' do
     # erb :greet
-     name = params[:user_name]
+     name = params[:name]
 	   say = params[:say]
   end
 
