@@ -1,6 +1,6 @@
 class Application < Sinatra::Base
   # Write your code here!
-  get '/index' do
+  get '/' do
     erb :index
   end
 
