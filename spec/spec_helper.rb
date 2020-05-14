@@ -2,7 +2,6 @@
 require 'rspec'
 require 'capybara/rspec'
 require 'capybara/dsl'
-require 'capybara/rails'
 
 # Configure RSpec
 RSpec.configure do |config|
