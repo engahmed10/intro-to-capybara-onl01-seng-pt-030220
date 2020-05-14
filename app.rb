@@ -8,8 +8,8 @@ class Application < Sinatra::Base
     erb :greet
   end
 
-  get '/index' do
-    erb :index
-  end
-  
+#  get '/index' do
+#    erb :index
+#  end
+
 end
